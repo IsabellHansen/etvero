@@ -1,0 +1,29 @@
+{
+  "name": "etvero",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.2.7",
+    "@changesets/cli": "^2.10.3",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "cypress": "^5.2.0",
+    "lerna": "^3.15.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tsdx": "^0.14.0",
+    "typescript": "^3.9.7"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  },
+  "author": "BernhardConsidine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IsabellHansen/etvero.git"
+  },
+  "homepage": "https://github.com/IsabellHansen/etvero.git",
+  "version": "1.0.0"
+}
